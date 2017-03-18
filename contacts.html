@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+
+
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Petfood</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<style>
+	/* Full-width input fields */
+
+
+	input[type=text],
+	input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		height: 50px;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	/* Set a style for all buttons */
+	/* Extra styles for the cancel button */
+
+
+	.cancelbtn {
+
+		background-color: #f44336;
+	}
+	/* Add padding to container elements */
+
+
+	.form-border {
+		background: #f3f3f3;
+		border: 1px solid #e7e7e7;
+		padding: 10px;
+		margin: 0;
+	}
+	/* Clear floats */
+
+
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.m-b-10{
+		margin-bottom: 10px; 
+		margin-top: 10px;
+	}
+</style>
+
+<body>
+
+	<div id="wrapper">
+
+		<div id="heading">
+
+		</div>
+
+		<header>
+			<a href="/"><img src="images/rawnaturelogo.png" width="500" heigth="300" alt="Smileyface"></a>
+
+
+		</header>
+		<nav>
+			<ul class="top-menu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="prod.html">PRODUCTS</a></li>
+				<li class="active">SIGN UP</li>
+				<li><a href="partners.html">CONTACTS</a></li>
+				<form name="search" action="#" method="get" style="margin-top:4px;">
+					<input type="text" name="q" placeholder="Search" style="width:75%; height: 32px; padding: 0 15px;"><button type="submit">GO</button>
+				</form>
+			</ul>
+
+		</nav>
+
+		<aside>
+			<div id="heading">
+				<section>
+					<h2>REGISTRATION</h2>
+				</section>
+			</div>
+			<br><br>
+			<!-- Button to open the modal -->
+			<button onclick="document.getElementById('id01').style.display='block'" class="m-b-10">Sign Up</button>
+
+			<!-- The Modal (contains the Sign Up form) -->
+			<div id="id01" class="modal" style="display: none;">
+				<form class="modal-content animate" action="/action_page.php" onsubmit="thanks()">
+					<div class="form-border"><div class="m-b-10"><b>Email</b></div><input type="text" placeholder="Enter Email" name="email" required><div class="m-b-10"><b>Password</b></div>						<input type="password" placeholder="Enter Password" name="psw" required> <div class="m-b-10"><b>Repeat Password</b></div>
+						<input type="password" placeholder="Repeat Password" name="psw-repeat" required> <input class="m-b-10" type="checkbox" checked="checked">						Remember me
+						<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+						<div class="clearfix"> <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>							<button type="submit" class="signupbtn">Sign Up</button> </div>
+					</div>
+				</form>
+			</div>
+			<br>
+			<h1>Privacy policy</h1>
+			<p> We take the privacy of client and end user data very seriously. The entire Sign-Up.to system is designed to provide all
+				parties with complete control over their data. We believe that your personal data is your own, and you should control
+				it. Because of this Sign-Up.to do not rent, sell or otherwise disclose data to 3rd parties unless we are required to
+				by law. That’s the short version. Because our lawyers like to earn their fees, they insisted that we also have the long
+				version below… Sign-Up Technologies Limited (referred to in this Privacy Policy as “SuTL”, “we”, “us” or “our”) is committed
+				to protecting your privacy. This Privacy Policy explains how we use the information we collect about you through Sign-UpT,
+				how you can instruct us if you prefer to limit the use of that information and procedures that we have in place to safeguard
+				your privacy. This Privacy Policy forms part of the Terms of Use </p>
+			<br>
+		</aside>
+		<section></section>
+	</div>
+
+	<footer>
+		<div id="footer">
+			<div id="twitter">
+				<h3>TWITTER FEED</h3>
+				<time datetime="2017-3-5"><a href="#">5 march</a></time>
+				<p>
+					This Website was made for learning. It doesnt provide any real products and is not selling anything from these lists.
+				</p>
+			</div>
+			<div id="sitemap">
+				<h3>SITEMAP</h3>
+				<div>
+					<a href="index.html">Home</a>
+					<a href="prod.html">Products</a>
+
+				</div>
+				<div>
+					<a href="contacts.html">Sign up</a>
+					<a href="partners.html">Contacts</a>
+
+				</div>
+			</div>
+
+
+			<div id="social">
+				<h3>SOCIAL NETWORKS</h3>
+				<a href="http://twitter.com/" class="social-icon twitter"></a>
+				<a href="http://facebook.com/" class="social-icon facebook"></a>
+				<a href="http://plus.google.com/" class="social-icon google-plus"></a>
+				<a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+				<a href="http://youtube.com/" class="social-icon-small youtube"></a>
+				<a href="http://flickr.com/" class="social-icon-small flickr"></a>
+				<a href="http://instagram.com/" class="social-icon-small instagram"></a>
+				<a href="/rss/" class="social-icon-small rss"></a>
+			</div>
+			<div id="footer-logo">
+				<a href="/"><img src="images/logo.jpg" width="50" heigh="50" alt="Error"></a>
+				<p>Copyright&copy; 2017 <a href="https://vk.com/id223270859"> Beksiak Oleh AM-42</a>. </p>
+			</div>
+
+		</div>
+	</footer>
+	<script>
+		function thanks(){
+			alert("Thanks for register!");
+		}
+	</script>
+</body>
+
+</html>
